@@ -1,3 +1,5 @@
+! pip install pycryptodome
+
 from Crypto import Random
 from Crypto.Hash import SHA
 from Crypto.PublicKey import RSA
