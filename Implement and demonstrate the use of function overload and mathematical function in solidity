@@ -1,0 +1,36 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+contract MathFunction {
+ function add (uint a, uint b) public pure returns (uint) {
+ return a + b;
+ }
+ function subtract (uint a, uint b) public pure returns (uint) {
+ return a - b;
+ }
+ function multiply (uint a, uint b) public pure returns (uint) {
+ return a * b;
+ }
+ function divide (uint a, uint b) public pure returns (uint) {
+ return a / b;
+ // This will revert if b is 0
+ }
+ function modulus (uint a, uint b) public pure returns (uint) {
+ return a % b;
+ // This will revert if b is 0
+ }
+ function power (uint a, uint b) public pure returns (uint) {
+ return a ** b;
+ }
+ function sum(uint a, uint b) public pure returns (uint) {
+ return a + b;
+ }
+ function sum ( uint a, uint b, uint c) public pure returns (uint) {
+ return a + b + c;
+ }
+ function square (uint a) public pure returns (uint) {
+ return a * a;
+ }
+ function square (int a) public pure returns (int) {
+ return a * a;
+ }
+}
